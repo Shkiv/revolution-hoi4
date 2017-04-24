@@ -1,2 +1,2 @@
 # revolution-hoi4
-Revolutions time mod for Hearts of Iron IV game from Paradox Interactive.
+Time of revolutions mod for Hearts of Iron IV game from Paradox Interactive.
