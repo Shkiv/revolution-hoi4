@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "1914_NAME"
 		desc = "1914_DESC"
-		date = 1914.1.1.12
+		date = 1914.6.21.12
 		picture = "GFX_select_date_1914"
 		default_country = "GER"
 		default = yes
@@ -63,31 +63,7 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
-			}
-			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
-			}
-		}
-		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				state_shintoism
-			}
-			focuses = {
-				southern_expansion_focus
-				divine_wind_focus
-				found_own_faction_focus
-			}
-		}
+
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
@@ -102,25 +78,58 @@ bookmarks = {
 			}
 		}
 
+		"AUS"={
+			history = "AUS_1914_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"TUR"={
+			history = "TUR_1914_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
-
 		# minors from DLC ####
-		"POL"={
+		"ITA"={
 			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
 			ideas = {
-
+				vittoria_mutilata
+				victor_emmanuel
 			}
 			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
 			}
 		}
+
+		"JAP"={
+			minor = yes
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				state_shintoism
+			}
+			focuses = {
+				southern_expansion_focus
+				divine_wind_focus
+				found_own_faction_focus
+			}
+		}
+
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
