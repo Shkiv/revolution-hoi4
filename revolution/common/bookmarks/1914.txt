@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 
 		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "FRA_1914_DESC"
 			ideology = democratic
 			ideas = {
 				FRA_victors_of_wwi
@@ -22,7 +22,7 @@ bookmarks = {
 			}
 		}
 		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "USA_1914_DESC"
 			ideology = democratic
 			ideas = {
 				home_of_the_free
@@ -36,7 +36,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "ENG_1914_DESC"
 			ideology = democratic
 			ideas = {
 				stiff_upper_lip
@@ -51,7 +51,7 @@ bookmarks = {
 		}
 
 		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "GER_1914_DESC"
 			ideology = fascism
 			ideas = {
 				sour_loser
@@ -64,17 +64,12 @@ bookmarks = {
 			}
 		}
 
-		"SOV"={
+		"RUS"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = neutrality
 			ideas = {
-				trotskyite_plot
-				home_of_revolution
 			}
 			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
 			}
 		}
 
