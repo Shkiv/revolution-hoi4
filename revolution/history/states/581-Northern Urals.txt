@@ -3,24 +3,32 @@ state={
 	id=581
 	name="STATE_581"
 	manpower = 48831
-	
+
 	state_category = wasteland
-	
+
 	resources={
 		chromium=44
 		aluminium=30
 	}
 
 	history={
-		owner = RUS
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = RUS
+
+		1914.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+		}
+
+		1936.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+		}
 	}
 
 	provinces={
-		4874 7824 10216 10551 10677 11098 12393 12502 12659 13076 
+		4874 7824 10216 10551 10677 11098 12393 12502 12659 13076
 	}
 }

@@ -9,31 +9,37 @@ state={
 		aluminium=32
 	}
 
-
 	state_category = city
 
 	history={
-		owner = RUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
-
 		}
 		victory_points = {
-			1591 3 
+			1591 3
 		}
-		add_core_of = RUS
-		#add_core_of = KAZ
+
+		1914.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+		}
+
+		1936.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+		}
+
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
 			}
 		}
-
 	}
 
 	provinces={
-		1591 1825 4224 4686 7706 10148 10660 12583 12640 13147 
+		1591 1825 4224 4686 7706 10148 10660 12583 12640 13147
 	}
 	manpower=2563404
 }

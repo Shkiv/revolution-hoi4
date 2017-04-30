@@ -3,13 +3,12 @@ state={
 	id=192
 	name="STATE_192"
 	manpower = 1469986
-	
+
 	state_category = city
 
 	history={
-		owner = RUS
 		victory_points = {
-			11670 10 
+			11670 10
 		}
 		buildings = {
 			infrastructure = 5
@@ -20,8 +19,19 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = RUS
-		add_core_of = UKR
+
+		1914.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			add_core_of = UKR
+		}
+
+		1936.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+		}
+
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3
@@ -30,6 +40,6 @@ state={
 	}
 
 	provinces={
-		741 754 3575 3738 3757 9698 9714 11670 11703 
+		741 754 3575 3738 3757 9698 9714 11670 11703
 	}
 }

@@ -9,7 +9,7 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
@@ -40,7 +40,7 @@ set_technology = {
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#adding ministers, already have 2 set
 	add_ideas = {
 		SOV_vyacheslav_molotov
@@ -81,7 +81,7 @@ set_technology = {
 	#purge stuff end
 
 	#MR pact stuff
-	add_opinion_modifier = { target = GER modifier = MR_pact }# pact 
+	add_opinion_modifier = { target = GER modifier = MR_pact }# pact
 	set_global_flag = sov_yes_pact
 	add_state_claim = 96
 	add_state_claim = 11
@@ -142,13 +142,13 @@ set_technology = {
 	complete_national_focus = SOV_anti_fascist_diplomacy
 	complete_national_focus = SOV_improve_stalin_line
 	complete_national_focus = SOV_claims_on_baltic
-	
+
 	#Soviet starts with 1 less focus, too many branches
-	
+
 	oob = "SOV_1939"
 	set_technology = {
 		CAS1 = 1
-		improved_light_tank = 1 
+		improved_light_tank = 1
 		basic_heavy_tank = 1    # Should be available in 1936 (T-35)
 		basic_medium_tank = 1 # Should be available in 1936 (T-28)
 		tactical_bomber1 = 1
@@ -170,7 +170,7 @@ set_technology = {
 		submarine_operations = 1
 
 		#Air
-		formation_flying = 1		
+		formation_flying = 1
 		dive_bombing = 1
 		direct_ground_support = 1
 
@@ -206,30 +206,24 @@ set_national_unity = 0.55
 set_politics = {
 
 	parties = {
-		democratic = { 
+		democratic = {
 			popularity = 10 #shared between all parties, should add to 100
 		}
 
 		fascism = {
 			popularity = 2
 		}
-		
+
 		communism = {
 			popularity = 88
 		}
 	}
-	
+
 	ruling_party = communism
-	last_election = "1933.7.1"
+	last_election = "1913.7.1" #It needs to change
 	election_frequency = 48
 	elections_allowed = no
 }
-
-create_faction = Comintern
-add_to_faction = SOV
-add_to_faction = MON
-add_to_faction = TAN
-
 
 add_ideas = {
 	trotskyite_plot
@@ -243,7 +237,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
-		
+
 	}
 }
 
@@ -254,7 +248,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {
-		
+
 	}
 }
 
@@ -265,7 +259,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = socialism
 	traits = {
-		
+
 	}
 }
 
@@ -281,7 +275,7 @@ create_corps_commander = {
 	traits = { winter_specialist panzer_leader  }
 	skill = 5
 
-	
+
 }
 
 create_corps_commander = {
@@ -290,7 +284,7 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
 	traits = {  panzer_leader }
 	skill = 4
-	
+
 }
 
 create_corps_commander = {
@@ -300,7 +294,7 @@ create_corps_commander = {
 	traits = { panzer_leader  }
 	skill = 4
 
-	
+
 }
 
 create_corps_commander = {
@@ -308,7 +302,7 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
 	traits = {  }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
@@ -316,7 +310,7 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = {  }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
@@ -327,7 +321,7 @@ create_corps_commander = {
 	skill = 5
 
 
-	
+
 }
 
 create_corps_commander = {
@@ -338,7 +332,7 @@ create_corps_commander = {
 	skill = 3
 
 
-	
+
 }
 
 create_field_marshal = {
@@ -349,7 +343,7 @@ create_field_marshal = {
 	skill = 1
 
 
-	
+
 }
 
 create_field_marshal = {
@@ -359,7 +353,7 @@ create_field_marshal = {
 	traits = { offensive_doctrine }
 	skill = 4
 
-	
+
 }
 
 create_field_marshal = {
@@ -368,16 +362,16 @@ create_field_marshal = {
 	traits = { old_guard }
 	skill = 1
 
-	
+
 }
 
 create_corps_commander = {
 	name = "Ivan Chernyakhovsky"
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = {  }
-	skill = 1 
+	skill = 1
 
-	
+
 }
 
 create_corps_commander = {
@@ -386,7 +380,7 @@ create_corps_commander = {
 	traits = {  }
 	skill = 1
 
-	
+
 }
 
 create_corps_commander = {
@@ -394,14 +388,14 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Leonid_Govorov.dds"
 	traits = {   }
 	skill = 3
-	
+
 }
 
 create_field_marshal = {
 	name = "Grigory Kulik"
 		picture = "Portrait_Soviet_Grigory_Kulik.dds"
 	traits = { old_guard }
-	skill = 1	
+	skill = 1
 }
 
 create_corps_commander = {
@@ -409,9 +403,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
 	traits = {  }
 	skill = 3
-	
 
-	
+
+
 }
 
 create_corps_commander = {
@@ -419,25 +413,25 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Filipp_Golikov.dds"
 	traits = {  }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
 	name = "Andrey Yeryomenko"
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
 	traits = {  }
-	skill = 1 
+	skill = 1
 
-	
+
 }
 
 create_corps_commander = {
 	name = "Georgiy Zakharov"
 		picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
 	traits = {  }
-	skill = 1 
+	skill = 1
 
-	
+
 }
 
 create_corps_commander = {
@@ -445,7 +439,7 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
 	traits = {  }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
@@ -454,7 +448,7 @@ create_corps_commander = {
 	traits = {  }
 	skill = 1
 
-	
+
 }
 create_corps_commander = {
 	name = "Nikandr Chibisov"
@@ -462,14 +456,14 @@ create_corps_commander = {
 	traits = { trickster }
 	skill = 3
 
-	
+
 }
 create_corps_commander = {
 	name = "Vasily Kuznetsov"
 		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
 	traits = { commando }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
@@ -478,15 +472,15 @@ create_corps_commander = {
 	traits = { winter_specialist }
 	id = 412
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
 	name = "Ivan Fedyuninsky"
 		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
 	traits = {  }
-	skill = 1 
-	
+	skill = 1
+
 }
 
 create_corps_commander = {
@@ -495,15 +489,15 @@ create_corps_commander = {
 	traits = {  }
 	skill = 3
 
-	
+
 }
 create_corps_commander = {
 	name = "Kuzma Galitsky"
 		picture = "Portrait_Soviet_Kuzma_Galitsky.dds"
 	traits = {  }
-	skill = 1 
+	skill = 1
 
-	
+
 }
 create_corps_commander = {
 	name = "Markian Popov"
@@ -511,7 +505,7 @@ create_corps_commander = {
 	traits = { winter_specialist }
 	skill = 2
 
-	
+
 }
 
 create_corps_commander = {
@@ -519,7 +513,7 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Nikolai_Berzarin.dds"
 	traits = {  }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
@@ -527,7 +521,7 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
 	traits = {  }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
@@ -535,15 +529,15 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Kirill_Moskalenko.dds"
 	traits = {  }
 	skill = 3
-	
+
 }
 
 create_corps_commander = {
 	name = "Dmitry Lelyushenko"
 		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = {  }
-	skill = 1 
-	
+	skill = 1
+
 }
 
 create_corps_commander = {
@@ -553,16 +547,16 @@ create_corps_commander = {
 	skill = 3
 
 
-	
+
 }
 
 create_corps_commander = {
 	name = "Rodion Malinovsky"
 		picture = "Portrait_Soviet_Rodion_Malinovsky.dds"
 	traits = {  }
-	skill = 1 
+	skill = 1
 
-	
+
 }
 
 create_corps_commander = {
@@ -571,7 +565,7 @@ create_corps_commander = {
 	traits = {  }
 	skill = 1
 
-	
+
 }
 
 create_navy_leader = {

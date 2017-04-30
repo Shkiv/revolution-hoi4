@@ -7,11 +7,10 @@ state={
 		oil=14
 		aluminium=12
 	}
-	
+
 	state_category = city
 
 	history={
-		owner = RUS
 		victory_points = {
 			525 25
 		}
@@ -21,8 +20,19 @@ state={
 			industrial_complex = 2
 			air_base = 8
 		}
-		add_core_of = RUS
-		add_core_of = UKR
+
+		1914.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			add_core_of = UKR
+		}
+
+		1936.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+		}
+
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 4
@@ -32,6 +42,6 @@ state={
 	}
 
 	provinces={
-		489 504 525 582 3494 3543 6497 9465 9543 9568 11557 
+		489 504 525 582 3494 3543 6497 9465 9543 9568 11557
 	}
 }
