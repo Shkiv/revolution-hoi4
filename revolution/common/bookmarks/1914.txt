@@ -65,7 +65,7 @@ bookmarks = {
 		}
 
 		"RUS"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "RUS_1914_DESC"
 			ideology = neutrality
 			ideas = {
 			}
@@ -95,10 +95,10 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
-		# minors from DLC ####
+		# Minors
 		"ITA"={
 			minor = yes
-			history = "ITA_GATHERING_STORM_DESC"
+			history = "ITA_1914_DESC"
 			ideology = fascism
 			ideas = {
 				vittoria_mutilata
@@ -113,7 +113,7 @@ bookmarks = {
 
 		"JAP"={
 			minor = yes
-			history = "JAP_GATHERING_STORM_DESC"
+			history = "JAP_1914_DESC"
 			ideology = fascism
 			ideas = {
 				state_shintoism
@@ -122,75 +122,6 @@ bookmarks = {
 				southern_expansion_focus
 				divine_wind_focus
 				found_own_faction_focus
-			}
-		}
-
-		"CAN"={
-			minor = yes
-			history = "CAN_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				CAN_great_depression_1
-				CAN_conscription_crisis
-			}
-			focuses = {
-				CAN_skewer_the_eagle
-				CAN_north_american_alliance
-				CAN_join_comintern
-			}
-		}
-		"AST"={
-			minor = yes
-			history = "AST_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				AST_great_depression_1
-			}
-			focuses = {
-				AST_never_another_gallipoli
-				AST_support_indonesian_uprising
-				AST_delegation_to_china
-			}
-		}
-		"NZL"={
-			minor = yes
-			history = "NZL_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-
-			}
-			focuses = {
-				NZL_bob_semple_tank
-				NZL_independent_new_zealand
-				NZL_maori_volunteers
-			}
-		}
-		"SAF"={
-			minor = yes
-			history = "SAF_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				SAF_ossewabrandwag
-				SAF_history_of_segregation
-			}
-			focuses = {
-				SAF_secure_interests_in_africa
-				SAF_support_the_german_coup
-				SAF_anti_colonialist_crusade
-			}
-		}
-		"RAJ"={
-			minor = yes
-			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				RAJ_agrarian_society
-				RAJ_princely_states
-			}
-			focuses = {
-				RAJ_all_india_forward_bloc
-				RAJ_indian_gurkhas
-				RAJ_the_smiling_buddha
 			}
 		}
 
