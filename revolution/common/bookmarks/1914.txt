@@ -5,8 +5,7 @@ bookmarks = {
 		date = 1914.6.21.12
 		picture = "GFX_select_date_1914"
 		default_country = "GER"
-		default = yes
-
+		
 		"FRA"={
 			history = "FRA_1914_DESC"
 			ideology = democratic
@@ -52,7 +51,7 @@ bookmarks = {
 
 		"GER"={
 			history = "GER_1914_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				sour_loser
 				general_staff
@@ -99,7 +98,7 @@ bookmarks = {
 		"ITA"={
 			minor = yes
 			history = "ITA_1914_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				vittoria_mutilata
 				victor_emmanuel
@@ -114,7 +113,7 @@ bookmarks = {
 		"JAP"={
 			minor = yes
 			history = "JAP_1914_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				state_shintoism
 			}
