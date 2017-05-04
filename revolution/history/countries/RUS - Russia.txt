@@ -65,7 +65,6 @@ set_technology = {
 	set_country_flag = purged_party_members
 	set_country_flag = purge_1_group_a
 	remove_ideas = mikhail_tukhachevsky
-	remove_unit_leader = 401
 	remove_ideas = alexander_yegorov
 	remove_ideas = vasily_blucher
 	remove_ideas = pyotr_smirnov
@@ -75,7 +74,6 @@ set_technology = {
 	remove_ideas = yakov_smushkevich
 	remove_ideas = pavel_rychagov
 	remove_ideas = gordey_levchenko
-	remove_unit_leader = 406
 	remove_ideas = alexander_novikov
 	set_global_flag = SOV_fourth_international_fired #news happened 1938
 	#purge stuff end
@@ -268,34 +266,8 @@ add_namespace = {
 	type = unit_leader
 }
 
-create_corps_commander = {
-	name = "Georgy Zhukov"
-	id = 410
-		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { winter_specialist panzer_leader  }
-	skill = 5
 
 
-}
-
-create_corps_commander = {
-	name = "Konstantin Rokossovsky"
-	id = 402
-		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
-	traits = {  panzer_leader }
-	skill = 4
-
-}
-
-create_corps_commander = {
-	name = "Aleksandr Vasilevsky"
-	id = 407
-		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
-	traits = { panzer_leader  }
-	skill = 4
-
-
-}
 
 create_corps_commander = {
 	name = "Boris Shaposhnikov"
@@ -310,49 +282,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = {  }
 	skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Ivan Konev"
-	id = 408
-		picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { panzer_leader  }
-	skill = 5
-
-
-
-}
-
-create_corps_commander = {
-	name = "Semyon Timoshenko"
-	id = 404
-		picture = "Portrait_Soviet_Semyon_Timoshenko.dds"
-	traits = {  }
-	skill = 3
-
-
-
-}
-
-create_field_marshal = {
-	name = "Kliment Voroshilov"
-	id = 405
-		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
-	traits = { old_guard  }
-	skill = 1
-
-
-
-}
-
-create_field_marshal = {
-	name = "Mikhail Tukhachevsky"
-	id = 401
-		picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
-	traits = { offensive_doctrine }
-	skill = 4
-
 
 }
 
@@ -467,15 +396,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Andrey Vlasov"
-		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
-	traits = { winter_specialist }
-	id = 412
-	skill = 3
-
-}
-
-create_corps_commander = {
 	name = "Ivan Fedyuninsky"
 		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
 	traits = {  }
@@ -575,30 +495,7 @@ create_navy_leader = {
 	skill = 2
 }
 
-create_navy_leader = {
-	name = "Sergey Gorshkov"
-	id = 411
-		picture = "Portrait_Soviet_Sergey_Gorshkov.dds"
-	traits = {  }
-	skill = 3
-}
-
 # Arrested in '41
-create_navy_leader = {
-	name = "Gordey Levchenko"
-	id = 406
-		picture = "Portrait_Soviet_Gordey_Levchenko.dds"
-	traits = {  }
-	skill = 2
-}
-
-create_navy_leader = {
-	name = "Arseniy Golovko"
-	id = 409
-		picture = "Portrait_Soviet_Arseniy_Golovko.dds"
-	traits = { spotter }
-	skill = 4
-}
 
 create_navy_leader = {
 	name = "Vladimir Kasatonov"

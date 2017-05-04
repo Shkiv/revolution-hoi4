@@ -1,4 +1,4 @@
-name="Time of Revolutions"
+﻿name="Time of Revolutions"
 path="mod/revolution/"
 tags={
 	"Historical"
