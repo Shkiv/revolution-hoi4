@@ -495,17 +495,6 @@ create_navy_leader = {
 	skill = 2
 }
 
-# Arrested in '41
-
-create_navy_leader = {
-	name = "Vladimir Kasatonov"
-	id = 403
-		picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
-	traits = { seawolf }
-	skill = 2
-}
-
-
 ### Ship Variants ###
 
 create_equipment_variant = {
