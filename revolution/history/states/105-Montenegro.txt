@@ -2,7 +2,7 @@
 state={
 	id=105
 	name="STATE_105" # Montenegro
-	manpower = 895500
+	manpower = 488455
 
 	state_category = rural
 
@@ -19,6 +19,7 @@ state={
 				naval_base = 1
 			}
 		}
+		victory_points = { 9809 1 }
 
 		1914.1.1 = {
 			owner = MNT
@@ -32,6 +33,6 @@ state={
 	}
 
 	provinces={
-		833 867 937 3922 6913 6940 9809 9821 9849 9874 11858
+		937 3922 6913 9809 9821 11858
 	}
 }

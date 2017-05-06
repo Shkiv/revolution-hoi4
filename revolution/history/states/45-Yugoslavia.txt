@@ -2,13 +2,15 @@
 state={
 	id=45
 	name="STATE_45" # Vojvodina
-	manpower = 1026200
+	manpower = 1422184
 
 	state_category = rural
 
 	history={
 		buildings = {
 			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
 		}
 
 		1914.1.1 = {
@@ -25,6 +27,6 @@ state={
 	}
 
 	provinces={
-		619 3617 3623 9608 9621
+		614 619 3614 3617 3623 6643 9621 11787
 	}
 }
