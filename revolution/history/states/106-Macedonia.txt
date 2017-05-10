@@ -1,0 +1,39 @@
+
+state={
+	id=106
+	name="STATE_106"
+	manpower = 1537018
+
+	state_category = rural
+
+	resources={
+		chromium=116
+		aluminium=32
+	}
+
+	history={
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+		}
+		victory_points = {
+			3882 1
+		}
+
+		1914.1.1 = {
+			owner = SER
+			add_core_of = SER
+			add_core_of = YUG
+		}
+
+		1936.1.1 = {
+			owner = YUG
+			remove_core_of = SER
+		}
+	}
+
+	provinces={
+		833 867 907 974 3833 3865 3882 6886 11832 11856 11857 11868
+	}
+}
