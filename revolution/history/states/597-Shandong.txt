@@ -5,13 +5,15 @@ state = {
 	state_category = town
 
 	history = {
-		owner = CHI
-		add_core_of = CHI
 		victory_points = { 1069 3 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 3
+		}
+		1914.1.1 = {
+		owner = CHI
+		add_core_of = CHI
 		}
 		1936.1.1 = { add_core_of = PRC }
 		1938.10.25 = { controller = JAP }

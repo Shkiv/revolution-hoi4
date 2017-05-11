@@ -3,7 +3,7 @@ state = {
 	name = "STATE_753"
 	manpower = 647918
 
-	state_category = city
+	state_category = enclave
 
 	history = {
 		buildings = {
