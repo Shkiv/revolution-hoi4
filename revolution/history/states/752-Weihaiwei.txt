@@ -2,7 +2,7 @@ state = {
 	id = 752
 	name = "STATE_752"
 	manpower = 2570546
-	state_category = town
+	state_category = enclave
 
 	history = {
 		victory_points = { 1069 3 }
