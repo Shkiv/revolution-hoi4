@@ -4,3 +4,8 @@
   infantry_weapons2:0 "Improved Infantry Equipment II"
   improved_infantry_weapons_2:0 "Improved Infantry Equipment III"
   advanced_infantry_weapons2:0 "Improved Infantry Equipment IV"
+  pre_marines:0 "Marines I"
+  pre_marines_desc:0 "Our infantry will be able to perform amphibious operations."
+  marines:0 "Marines II"
+  marines2:0 "Marines III"
+  marines3:0 "Marines IV"

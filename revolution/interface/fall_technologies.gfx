@@ -2,20 +2,40 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_infantry_weapons_1914_medium"
 		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
-		}
-		
-		SpriteType = {
-			name = "GFX_infantry_weapons2_medium"
-			texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
-		}
+	}
 
-		SpriteType = {
-			name = "GFX_improved_infantry_weapons_2_medium"
-			texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
-		}
+	SpriteType = {
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}
 
-		SpriteType = {
-			name = "GFX_advanced_infantry_weapons2_medium"
-			texturefile = "gfx/interface/technologies/infantry_weapons4.dds"
-		}
+	SpriteType = {
+		name = "GFX_improved_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_marines3_medium"
+		texturefile = "gfx/interface/technologies/marines_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_marines2_medium"
+		texturefile = "gfx/interface/technologies/marines3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_marines_medium"
+		texturefile = "gfx/interface/technologies/marines2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_pre_marines_medium"
+		texturefile = "gfx/interface/technologies/marines.dds"
+	}
 }

@@ -36,8 +36,8 @@ technologies = {
 		ai_will_do = { factor = 1 }
 	}
 	infantry_weapons_1914 = {
-		infantry = { soft_attack = 0.05 }
-		cavalry = { soft_attack = 0.05 }
+		category_light_infantry = { soft_attack = 0.02 }
+		cavalry = { soft_attack = 0.02 }
 
 		path = {
 			leads_to_tech = infantry_weapons1
@@ -111,8 +111,8 @@ technologies = {
 		}
 	}
 	infantry_weapons2 = {
-		category_light_infantry = { soft_attack = 0.05 }
-		cavalry = { soft_attack = 0.05 }
+		category_light_infantry = { soft_attack = 0.03 }
+		cavalry = { soft_attack = 0.03 }
 		motorized = { soft_attack = 0.05 }
 		mechanized = { soft_attack = 0.05 }
 
@@ -543,21 +543,43 @@ technologies = {
 			}
 		}
 	}
-	marines = {
-
-		enable_subunits = {
-			marine
+	pre_marines = {
+		naval_invasion_capacity = 5
+		path = {
+			leads_to_tech = marines
+			research_cost_coeff = 1
 		}
 
+		research_cost = 2
+		start_year = 1890
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1890 }
+		}
+
+		categories = { marine_tech }
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+	}
+	marines = {
+
+		enable_subunits = { marine }
+
 		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = marine
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_marines"
-			}
+			limit = { NOT = { has_template_containing_unit = marine } }
+			hidden_effect = { load_oob = "unlock_marines" }
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
@@ -573,9 +595,7 @@ technologies = {
 			position = { x = 0 y = @1936 }
 		}
 
-		categories = {
-			marine_tech
-		}
+		categories = { marine_tech }
 
 		ai_will_do = {
 			factor = 1
@@ -630,9 +650,7 @@ technologies = {
 	}
 	marines3 = {
 
-		marine = {
-			max_organisation = 5
-		}
+		marine = { max_organisation = 5 }
 
 		research_cost = 2.0
 		start_year = 1943

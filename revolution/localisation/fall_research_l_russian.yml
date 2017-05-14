@@ -4,3 +4,8 @@
   infantry_weapons2:0 "Улучшенное пехотное снаряжение II"
   improved_infantry_weapons_2:0 "Улучшенное пехотное снаряжение III"
   advanced_infantry_weapons2:0 "Улучшенное пехотное снаряжение IV"
+  pre_marines:0 "Морская пехота I"
+  pre_marines_desc:0 "Наша пехота сможет проводить десантные операции."
+  marines:0 "Морская пехота II"
+  marines2:0 "Морская пехота III"
+  marines3:0 "Морская пехота IV"
