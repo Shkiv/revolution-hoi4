@@ -2,16 +2,17 @@ technologies = {
 
 	@1890 = 0
 	@1914 = 2
-	@1936 = 4
-	@1938 = 6
-	@1939 = 8
-	@1940 = 10
-	@1941 = 12
-	@1942 = 14
-	@1943 = 16
-	@1944 = 18
-	@1945 = 20
-	@1946 = 22
+	@1925 = 4
+	@1936 = 6
+	@1938 = 8
+	@1939 = 10
+	@1940 = 12
+	@1941 = 14
+	@1942 = 16
+	@1943 = 18
+	@1944 = 20
+	@1945 = 22
+	@1946 = 24
 
 	infantry_weapons = {
 
@@ -551,10 +552,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1890
+		start_year = 1914
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1890 }
+			position = { x = 0 y = @1914 }
 		}
 
 		categories = { marine_tech }
@@ -1151,54 +1152,32 @@ technologies = {
 			}
 		}
 	}
-	motorised_infantry = {
-
-		enable_subunits = {
-			motorized
-		}
-
-		enable_equipments = {
-			motorized_equipment_1
-		}
-
+	pre_motorised = {
+		enable_subunits = { motorized }
+		enable_equipments = { motorized_equipment_0 }
 		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = motorized
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_motorized"
-			}
+			limit = { NOT = { has_template_containing_unit = motorized } }
+			hidden_effect = { load_oob = "unlock_motorized" }
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
-
 		path = {
-			leads_to_tech = mechanised_infantry
+			leads_to_tech = motorised_infantry
 			research_cost_coeff = 1
 		}
-
 		research_cost = 2
-		start_year = 1936
+		start_year = 1925
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @1925 }
 		}
-
 		folder = {
 			name = support_folder
 			position = { x = 7 y = 9 }
 		}
-
-		sub_technologies = {
-			motorized_rocket_unit
-		}
-
 		categories = {
 			motorized_equipment
 			infantry_tech
 		}
-
 		ai_will_do = {
 			factor = 1
 
@@ -1215,6 +1194,47 @@ technologies = {
 			modifier = {
 				factor = 2
 				date > "1939.1.1"
+			}
+		}
+	}
+	motorised_infantry = {
+		enable_equipments = { motorized_equipment_1 }
+		path = {
+			leads_to_tech = mechanised_infantry
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1938
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1938 }
+		}
+
+		sub_technologies = {
+			motorized_rocket_unit
+		}
+
+		categories = {
+			motorized_equipment
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 2
+				date > "1940.1.1"
+			}
+			modifier = {
+				factor = 2
+				date > "1941.1.1"
 			}
 		}
 	}

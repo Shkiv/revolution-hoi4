@@ -38,4 +38,13 @@ spriteTypes = {
 		name = "GFX_pre_marines_medium"
 		texturefile = "gfx/interface/technologies/marines.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_pre_motorised_medium"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+	}
 }

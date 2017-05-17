@@ -9,3 +9,6 @@
   marines:0 "Marines II"
   marines2:0 "Marines III"
   marines3:0 "Marines IV"
+  motorized_equipment_0:0 "Early Motorized"
+  motorized_equipment_0_desc:0 "Motorizing infantry is the first stage towards the mechanization of an army. Civilian trucks are readily adaptable to military uses of transporting soldiers, towing guns, and carrying equipment and supplies. This greatly increases the strategic mobility of infantry units, which would otherwise rely on marching."
+  motorized_equipment_1_desc:0 "Early motor transport was expensive, unreliable and had low off-road performance. With the development of the automotive industry, all these shortcomings have been eliminated."
