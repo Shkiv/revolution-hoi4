@@ -19,3 +19,5 @@
   tech_mountaineers_1936_desc:0 "Combat in mountain ranges exposes troops to many perils, but sometimes cannot be avoided. We can minimize these risks by providing our soldiers with specialized training for this environment."
   tech_mountaineers2:0 "Mountain Infantry III"
   tech_mountaineers3:0 "Mountain Infantry IV"
+  khaki:0 "Khaki"
+  khaki_desc:0 "The color of khaki is used in military uniforms for camouflage purposes."

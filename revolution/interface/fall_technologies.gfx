@@ -55,4 +55,8 @@ spriteTypes = {
 		name = "GFX_tech_mountaineers_1936_medium"
 		texturefile = "gfx/interface/technologies/mountain2.dds"
 	}
+	SpriteType = {
+		name = "GFX_khaki_medium"
+		texturefile = "gfx/interface/technologies/khaki.dds"
+	}
 }
